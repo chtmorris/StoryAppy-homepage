@@ -1,0 +1,202 @@
+/*
+----- COLOURS -----
+Background purple: #5E4A74
+Darker purple: #47345B
+Darker still purple: #351F4C
+*/
+
+/*----- GENERAL -----*/
+body {
+  background: #5E4A74;
+}
+
+p, h1, h2, h3, input, text {
+  font-family: 'Lato', sans-serif;
+  color: white !important;
+  font-weight: 300;
+}
+
+.section-break {
+  margin: 100px 80px 0 80px;
+}
+
+/*----- NAV BAR -----*/
+.primary.title-bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: rgba(71,52,91, 0.8);
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  border-bottom: none;
+}
+
+.nav-links {
+  padding-top: 6px;
+}
+
+.navbar {
+  text-align: center;
+}
+
+.logo {
+  height: 30px;
+  width: auto;
+}
+
+.logo-text {
+  margin-left: 10px;
+}
+
+@media screen and (max-width:450px) {
+  .logo-text {
+    display: none;
+  }
+}
+
+
+/*----- INTRO -----*/
+.intro-block {
+  padding: 43px 0 50px 0;
+  background-image: url('/img/computer-opacity-0.5.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  width: 100%;
+}
+
+@media screen and (max-width:790px) {
+  .intro-block {
+    background-image: none;
+  }
+}
+
+.intro-headline {
+  text-align: center;
+  padding: 50px 30px 0 30px;
+  margin-bottom: 20px;
+  z-index: 999;
+}
+
+.intro-headline-text {
+  max-width: 450px;
+  margin-bottom: 50px;
+}
+
+.right-intro-block {
+  height: 500px;
+  width: 100%;
+  padding: 50px 0 0px 0;
+}
+
+.top-right-image {
+    background-image: url('/img/top-right-image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+}
+
+/*----- DESCRIPTION -----*/
+.description-title {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.vertical.grid-content.description-title{
+  margin-top: 80px;
+}
+
+.boy, .school, .earth {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 200px;
+  width: 100%;
+  display: block;
+  margin-top: 10px;
+}
+
+.boy {
+  background-image: url('/img/boy.gif');
+}
+
+.school {
+  background-image: url('/img/school.png');
+}
+
+.earth {
+  background-image: url('/img/Earth.gif');
+}
+
+.students {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.example-text-img{
+  /*height: 100%;*/
+  width: 80%;
+  object-fit: contain;
+  display: block;
+}
+
+svg {
+  font-family: "Helvetica Neue", Helvetica;
+}
+
+.line {
+  fill: none;
+  stroke: #000;
+  stroke-width: 2px;
+}
+
+/*----- LOGIN -----*/
+form {
+  margin-top: 30px;
+}
+
+form input {
+  text-align: center;
+  border-radius: 3px !important;
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  border: 1px solid rgba(255, 255, 255, 0.4) !important;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  min-width: 300px;
+  font-weight: 400;
+}
+
+form input:hover {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+}
+
+form input:focus {
+  background-color: white !important;
+  color: #53e3a6;
+}
+
+.button {
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.expand.button {
+  background: #351F4C;
+  border-radius: 3px !important;
+}
+
+.expand.button:hover {
+  background: #47345B;
+}
+
+/*----- FOOTER -----*/
+.footer {
+  margin: 0 0 0 80px;
+}
+
+.footer-text {
+  margin-bottom: 0;
+}
