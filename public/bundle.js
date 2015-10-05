@@ -23824,23 +23824,66 @@
 	    value: function render() {
 	      return _react2["default"].createElement(
 	        "div",
-	        { className: "vertical grid-frame intro-block align-center" },
+	        { className: "vertical grid-frame intro-block" },
 	        _react2["default"].createElement(
 	          "div",
-	          { className: "grid-content" },
+	          { className: "intro-title" },
 	          _react2["default"].createElement(
-	            "h1",
-	            null,
-	            " A writing tool for the classroom to nurture our young writers"
-	          )
-	        ),
-	        _react2["default"].createElement(
-	          "div",
-	          { className: "grid-content" },
+	            "div",
+	            { className: "grid-content" },
+	            _react2["default"].createElement(
+	              "h1",
+	              null,
+	              " A writing tool for the classroom"
+	            ),
+	            _react2["default"].createElement(
+	              "h1",
+	              null,
+	              " to nurture our young writers"
+	            )
+	          ),
 	          _react2["default"].createElement(
-	            "h1",
-	            null,
-	            " blah"
+	            "div",
+	            { className: "medium-horizontal grid-container white-box" },
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "grid-block" },
+	              _react2["default"].createElement(
+	                "div",
+	                { className: "grid-block" },
+	                _react2["default"].createElement(
+	                  "p",
+	                  { className: "get-email-text" },
+	                  " StoryAppy is looking for schools to join a pilot program.  If you’re interested or if you would like to receive news about StoryAppy, please sign up. "
+	                )
+	              ),
+	              _react2["default"].createElement(
+	                "div",
+	                { className: "grid-block align-center" },
+	                _react2["default"].createElement(
+	                  "form",
+	                  null,
+	                  _react2["default"].createElement(
+	                    "div",
+	                    { className: "grid-block" },
+	                    _react2["default"].createElement(
+	                      "div",
+	                      { className: "medium-8 grid-block" },
+	                      _react2["default"].createElement("input", { type: "text", placeholder: "Email Addresss", className: "e-mail" })
+	                    ),
+	                    _react2["default"].createElement(
+	                      "div",
+	                      { className: "medium-4 grid-block" },
+	                      _react2["default"].createElement(
+	                        "a",
+	                        { className: "expand button", href: "#" },
+	                        "Submit"
+	                      )
+	                    )
+	                  )
+	                )
+	              )
+	            )
 	          )
 	        )
 	      );

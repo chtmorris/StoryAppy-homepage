@@ -67,6 +67,71 @@ p, h1, h2, h3, input, text {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  text-align: center;
+}
+
+.intro-title h1 {
+  font-weight: 700;
+  text-shadow: 0px 5px 1px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (min-height:400px) {
+  .intro-title {
+    padding-top: 100px;
+  }
+}
+
+@media screen and (min-height:500px) {
+  .intro-title {
+    padding-top: 200px;
+  }
+}
+
+@media screen and (min-height:600px) {
+  .intro-title {
+    padding-top: 300px;
+  }
+}
+
+@media screen and (min-height:700px) {
+  .intro-title {
+    padding-top: 400px;
+  }
+}
+
+@media screen and (min-height:800px) {
+  .intro-title {
+    padding-top: 500px;
+  }
+}
+
+@media screen and (min-height:900px) {
+  .intro-title {
+    padding-top: 600px;
+  }
+}
+
+@media screen and (min-height:1000px) {
+  .intro-title {
+    padding-top: 700px;
+  }
+}
+
+.white-box{
+  background-color: rgba(178, 176, 176, 0.84);
+  border-radius: 8px;
+  text-shadow: 0px 3px 1px rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+}
+
+.get-email-text{
+  padding: 15px 15px 0 15px;
+  font-weight: 400;
+}
+
+input.e-mail {
+  height: 39px;
+  margin-right: 10px;
 }
 
 /*----- DESCRIPTION -----*/
@@ -135,7 +200,7 @@ form input {
   border: 1px solid rgba(255, 255, 255, 0.4) !important;
   -webkit-transition-duration: 0.3s;
           transition-duration: 0.3s;
-  min-width: 300px;
+  color: black !important;
   font-weight: 400;
 }
 
