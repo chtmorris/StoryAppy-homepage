@@ -23750,7 +23750,7 @@
 	          { className: "grid-block" },
 	          _react2["default"].createElement(
 	            "div",
-	            { className: "medium-9 grid-block" },
+	            { className: "medium-11 grid-block" },
 	            _react2["default"].createElement(
 	              "span",
 	              { className: "left" },
@@ -23767,37 +23767,11 @@
 	            { className: "medium-1 grid-block nav-links" },
 	            _react2["default"].createElement(
 	              "span",
-	              { className: "center" },
+	              { className: "right" },
 	              _react2["default"].createElement(
 	                "a",
 	                { href: "#" },
-	                "About"
-	              )
-	            )
-	          ),
-	          _react2["default"].createElement(
-	            "div",
-	            { className: "medium-1 grid-block nav-links" },
-	            _react2["default"].createElement(
-	              "span",
-	              { className: "center" },
-	              _react2["default"].createElement(
-	                "a",
-	                { href: "#" },
-	                "Login"
-	              )
-	            )
-	          ),
-	          _react2["default"].createElement(
-	            "div",
-	            { className: "medium-1 grid-block nav-links" },
-	            _react2["default"].createElement(
-	              "span",
-	              { className: "center" },
-	              _react2["default"].createElement(
-	                "a",
-	                { href: "#" },
-	                "Contact"
+	                "Sign in"
 	              )
 	            )
 	          )
@@ -23850,11 +23824,30 @@
 	    value: function render() {
 	      return _react2["default"].createElement(
 	        "div",
-	        { className: "vertical medium-horizontal grid-block intro-block" },
+	        { className: "vertical grid-frame intro-block" },
 	        _react2["default"].createElement(
-	          "h1",
-	          null,
-	          " A writing tool for the classroom to nurture our young writers"
+	          "div",
+	          { className: "grid-block intro-headline" },
+	          _react2["default"].createElement(
+	            "span",
+	            { className: "centre" },
+	            " ",
+	            _react2["default"].createElement(
+	              "h1",
+	              null,
+	              " A writing tool for the classroom to nurture our young writers"
+	            ),
+	            " "
+	          )
+	        ),
+	        _react2["default"].createElement(
+	          "div",
+	          { className: "grid-block" },
+	          _react2["default"].createElement(
+	            "h1",
+	            null,
+	            " A writing tool for the classroom to nurture our young writers"
+	          )
 	        )
 	      );
 	    }
