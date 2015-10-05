@@ -23852,31 +23852,9 @@
 	        "div",
 	        { className: "vertical medium-horizontal grid-block intro-block" },
 	        _react2["default"].createElement(
-	          "div",
-	          { className: "medium-6 grid-content" },
-	          _react2["default"].createElement(
-	            "div",
-	            { className: "vertical grid-block" },
-	            _react2["default"].createElement(
-	              "div",
-	              { className: "grid-block align-center intro-headline" },
-	              _react2["default"].createElement(
-	                "h1",
-	                { className: "intro-headline-text" },
-	                " Collaborative Writing For The Classroom "
-	              )
-	            ),
-	            _react2["default"].createElement(
-	              "div",
-	              { className: "grid-block align-center" },
-	              _react2["default"].createElement("iframe", { width: "400", height: "250", src: "https://www.youtube.com/embed/oODsZ9cbWPM", frameborder: "0", allowfullscreen: true })
-	            )
-	          )
-	        ),
-	        _react2["default"].createElement(
-	          "div",
-	          { className: "medium-6 grid-content right-intro-block" },
-	          _react2["default"].createElement("div", { className: "top-right-image" })
+	          "h1",
+	          null,
+	          " A writing tool for the classroom to nurture our young writers"
 	        )
 	      );
 	    }
