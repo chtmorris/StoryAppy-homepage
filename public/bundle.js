@@ -23824,29 +23824,23 @@
 	    value: function render() {
 	      return _react2["default"].createElement(
 	        "div",
-	        { className: "vertical grid-frame intro-block" },
+	        { className: "vertical grid-frame intro-block align-center" },
 	        _react2["default"].createElement(
 	          "div",
-	          { className: "grid-block intro-headline" },
-	          _react2["default"].createElement(
-	            "span",
-	            { className: "centre" },
-	            " ",
-	            _react2["default"].createElement(
-	              "h1",
-	              null,
-	              " A writing tool for the classroom to nurture our young writers"
-	            ),
-	            " "
-	          )
-	        ),
-	        _react2["default"].createElement(
-	          "div",
-	          { className: "grid-block" },
+	          { className: "grid-content" },
 	          _react2["default"].createElement(
 	            "h1",
 	            null,
 	            " A writing tool for the classroom to nurture our young writers"
+	          )
+	        ),
+	        _react2["default"].createElement(
+	          "div",
+	          { className: "grid-content" },
+	          _react2["default"].createElement(
+	            "h1",
+	            null,
+	            " blah"
 	          )
 	        )
 	      );

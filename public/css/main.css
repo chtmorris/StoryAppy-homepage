@@ -69,13 +69,6 @@ p, h1, h2, h3, input, text {
   -o-background-size: cover;
 }
 
-.intro-headline {
-  text-align: center;
-  padding: 0px 30px 0 30px;
-  margin-bottom: 20px;
-  max-width: 850px;
-}
-
 /*----- DESCRIPTION -----*/
 .description-title {
   text-align: center;
