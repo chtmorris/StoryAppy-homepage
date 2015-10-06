@@ -26,7 +26,7 @@ p, h1, h2, h3, input, text {
   left: 0;
   right: 0;
   z-index: 1000;
-  background-color: rgba(71,52,91, 0.8);
+  background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.17));
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   border-bottom: none;
@@ -68,6 +68,10 @@ p, h1, h2, h3, input, text {
   background-size: cover;
   -o-background-size: cover;
   text-align: center;
+}
+
+.intro-title {
+  z-index: 2;
 }
 
 .intro-title h1 {
@@ -132,6 +136,15 @@ p, h1, h2, h3, input, text {
 input.e-mail {
   height: 39px;
   margin-right: 10px;
+}
+
+.bottom-overlay {
+  position: absolute;
+  bottom: 0;
+  height: 400px;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.50));
+  z-index: 1;
 }
 
 /*----- DESCRIPTION -----*/

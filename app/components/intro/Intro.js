@@ -29,6 +29,7 @@ class Intro extends React.Component{
             </div>
           </div>
         </div>
+        <div className="bottom-overlay"></div>
       </div>
     )
   }
