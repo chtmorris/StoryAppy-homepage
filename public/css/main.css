@@ -121,11 +121,45 @@ p, h1, h2, h3, input, text {
   }
 }
 
+@media screen and (max-width:650px) {
+  .intro-title {
+    padding-top: 200px;
+  }
+  .get-email-text{
+    margin-bottom: 0;
+  }
+  .submit-email{
+    width: 140px;
+  }
+
+  input.e-mail {
+    width: 140px;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .intro-title {
+    padding-top: 130px;
+  }
+}
+
+@media screen and (max-width:350px) {
+  .intro-title {
+    padding-top: 10px;
+  }
+}
+
 .white-box{
   background-color: rgba(178, 176, 176, 0.84);
   border-radius: 8px;
   text-shadow: 0px 3px 1px rgba(0, 0, 0, 0.5);
   font-weight: 400;
+}
+
+@media screen and (max-width:900px) {
+  .white-box {
+    margin: 0 10px 0 10px;
+  }
 }
 
 .get-email-text{
