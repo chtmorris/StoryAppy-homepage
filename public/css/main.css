@@ -235,6 +235,12 @@ svg {
   stroke-width: 2px;
 }
 
+/*----- PARALLAX -----*/
+
+.react-parallax {
+  height: 500px;
+}
+
 /*----- LOGIN -----*/
 form {
   margin-top: 30px;
