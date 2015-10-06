@@ -7,12 +7,11 @@ Darker still purple: #351F4C
 
 /*----- GENERAL -----*/
 body {
-  background: #5E4A74;
+  background: #FFFFFF;
 }
 
 p, h1, h2, h3, input, text {
   font-family: 'Lato', sans-serif;
-  color: white !important;
   font-weight: 300;
 }
 
@@ -62,16 +61,18 @@ p, h1, h2, h3, input, text {
   background-position: center;
   height:100vh;
   width: 100%;
-  background-image: url('/img/child-creativity.png');
+  background-image: url('/img/storyShadow.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
   text-align: center;
+  color: white !important;
 }
 
 .intro-title {
   z-index: 2;
+  color: white !important;
 }
 
 .intro-title h1 {
