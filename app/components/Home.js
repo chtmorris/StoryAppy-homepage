@@ -13,7 +13,6 @@ class Home extends React.Component{
         <Intro />
         <Description />
         <Login />
-        <Footer />
       </div>
     )
   }
