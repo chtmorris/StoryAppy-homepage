@@ -1,4 +1,7 @@
 import React from 'react';
+import Scroll from 'react-scroll';
+
+var Link = Scroll.Link;
 
 class NavBar extends React.Component{
   render(){
@@ -13,7 +16,11 @@ class NavBar extends React.Component{
           </span>
           </div>
           <div className="medium-1 grid-block nav-links">
-            <span className="right"><a href="#">Sign in</a></span>
+            <span className="right login-button">
+              <Link to="login-section" spy={true} smooth={true} duration={2000}>
+                Sign in
+              </Link>
+            </span>
           </div>
         </div>
       </div>

@@ -1,10 +1,14 @@
 import React from 'react';
 import Footer from '../footer/Footer';
+import Scroll from 'react-scroll';
+
+var Element = Scroll.Element;
 
 class Login extends React.Component{
   render(){
     return(
       <div className="login-section">
+        <Element name="login-section">
         <div className="vertical grid-block">
           <div className="login-text-block">
             <div className="grid-block align-center">
@@ -21,6 +25,7 @@ class Login extends React.Component{
           <Footer />
           <div className="bottom-overlay"></div>
         </div>
+      </Element>
       </div>
     )
   }

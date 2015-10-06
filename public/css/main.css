@@ -57,6 +57,10 @@ p, h1, h2, h3, input, text {
   }
 }
 
+.login-button{
+  cursor: pointer;
+}
+
 
 /*----- INTRO -----*/
 .intro-block {
