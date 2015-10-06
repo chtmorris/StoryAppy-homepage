@@ -4,10 +4,11 @@ class Intro extends React.Component{
   render(){
     return(
       <div className="vertical grid-block intro-block">
-        <div className="intro-title">
-          <div className="grid-content">
-            <h1> A writing tool for the classroom</h1>
-            <h1> to nurture our young writers</h1>
+        <div className="intro-content">
+          <div className="grid-block intro-title">
+            <div className="grid-content">
+              <h1> A writing tool for the classroom to nurture our young writers</h1>
+            </div>
           </div>
           <div className="grid-container white-box">
             <div className="vertical medium-horizontal grid-block">

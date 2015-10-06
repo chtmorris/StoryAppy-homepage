@@ -69,60 +69,65 @@ p, h1, h2, h3, input, text {
   color: white !important;
 }
 
-.intro-title {
+.intro-content {
   z-index: 2;
 }
 
-.intro-title h1 {
+.intro-title {
+  max-width: 700px;
+  margin: auto;
+}
+
+.intro-content h1 {
   font-weight: 700;
   text-shadow: 0px 5px 1px rgba(0, 0, 0, 0.5);
   color: white !important;
 }
 
 @media screen and (min-height:400px) {
-  .intro-title {
+  .intro-content {
     padding-top: 100px;
   }
 }
 
 @media screen and (min-height:500px) {
-  .intro-title {
+  .intro-content {
     padding-top: 200px;
   }
 }
 
 @media screen and (min-height:600px) {
-  .intro-title {
+  .intro-content {
     padding-top: 300px;
   }
 }
 
 @media screen and (min-height:700px) {
-  .intro-title {
+  .intro-content {
     padding-top: 400px;
   }
 }
 
 @media screen and (min-height:800px) {
-  .intro-title {
+  .intro-content {
     padding-top: 500px;
   }
 }
 
 @media screen and (min-height:900px) {
-  .intro-title {
+  .intro-content {
     padding-top: 600px;
   }
 }
 
 @media screen and (min-height:1000px) {
-  .intro-title {
+  .intro-content {
     padding-top: 700px;
   }
 }
 
 @media screen and (max-width:650px) {
-  .intro-title {
+  .intro-content {
     padding-top: 200px;
   }
   .get-email-text{
@@ -138,13 +143,13 @@ p, h1, h2, h3, input, text {
 }
 
 @media screen and (max-width:450px) {
-  .intro-title {
+  .intro-content {
     padding-top: 130px;
   }
 }
 
 @media screen and (max-width:350px) {
-  .intro-title {
+  .intro-content {
     padding-top: 10px;
   }
 }
@@ -177,7 +182,7 @@ input.e-mail {
   bottom: 0;
   height: 400px;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.50));
+  background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.80));
   z-index: 1;
 }
 
