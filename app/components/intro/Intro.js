@@ -3,7 +3,7 @@ import React from 'react';
 class Intro extends React.Component{
   render(){
     return(
-      <div className="vertical grid-frame intro-block">
+      <div className="vertical grid-block intro-block">
         <div className="intro-title">
           <div className="grid-content">
             <h1> A writing tool for the classroom</h1>
