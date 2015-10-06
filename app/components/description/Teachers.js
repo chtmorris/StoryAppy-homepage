@@ -14,7 +14,7 @@ class Teachers extends React.Component{
           <div className="vertical medium-horizontal grid-block">
             <div className="medium-8 grid-block description-title">
               <div className="vertical grid-content">
-                <p className="description-text-first-block">
+                <p className="description-text-block">
                   Instead of waiting for a teacher to grade an assignment,
                   students are able to get immediate feedback on their work.
                 </p>

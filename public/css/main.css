@@ -18,6 +18,10 @@ p, h1, h2, h3, input, text {
   margin: 100px 80px 0 80px;
 }
 
+.extra-margin-bottom {
+  margin-bottom: 100px;
+}
+
 /*----- NAV BAR -----*/
 .primary.title-bar {
   position: fixed;
@@ -189,6 +193,7 @@ input.e-mail {
 /*----- DESCRIPTION -----*/
 .first-description-block {
   text-align: center;
+  padding: 0 5px;
 }
 
 .description-title {
@@ -236,7 +241,7 @@ input.e-mail {
 }
 
 .storybook {
-  background-image: url('/img/storybook.png');
+  background-image: url('/img/book.gif');
 }
 
 .students {
@@ -261,7 +266,7 @@ svg {
   stroke-width: 2px;
 }
 
-.description-text-first-block{
+.description-text-block{
   margin: 50px 0 0 0;
   max-width: 500px;
   font-size: 18px;
@@ -273,6 +278,12 @@ svg {
 
 .react-parallax {
   height: 500px;
+}
+
+@media screen and (max-width:450px) {
+  .react-parallax {
+    height: 200px;
+  }
 }
 
 /*----- LOGIN -----*/
@@ -336,7 +347,7 @@ form input:focus {
 
 /*----- FOOTER -----*/
 .footer {
-  margin: 0 0 0 80px;
+  margin: 0 0 0 20px;
   z-index: 200;
 }
 

@@ -10,15 +10,14 @@ class Description extends React.Component{
   render(){
     return(
       <div>
-        <Parallax bgImage="img/parallaxOne.png" strength={200}>
-        </Parallax>
+        <Parallax bgImage="img/parallaxOne.png" strength={200}></Parallax>
         <DescriptionOverview />
         <CustomizationOverview />
+        <Parallax bgImage="img/parallaxTwo.png" strength={300}></Parallax>
         <Students />
         <Teachers />
         <Parents />
-        <Parallax bgImage="img/parallaxTwo.png" strength={300}>
-        </Parallax>
+        <Parallax bgImage="img/parallaxThree.png" strength={300}></Parallax>
       </div>
     )
   }

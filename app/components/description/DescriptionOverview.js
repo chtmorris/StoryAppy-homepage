@@ -45,7 +45,7 @@ class DescriptionOverview extends React.Component{
         </div>
         <div className="vertical grid-block">
           <div className="vertical grid-container">
-            <p className="description-text-first-block">
+            <p className="description-text-block">
                Writing can be intimidating for people of all ages.
                By allowing students to write together, StoryAppy makes writing collaborative, fun and engaging.
                Imagine your students writing with pen pals from all over the world!
