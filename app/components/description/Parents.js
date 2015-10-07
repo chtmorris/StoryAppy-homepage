@@ -9,7 +9,7 @@ class Parents extends React.Component{
             <h2> Print stories into beautiful books </h2>
           </div>
         </div>
-        <div className="grid-container extra-margin-bottom">
+        <div className="grid-container extra-padding-bottom">
           <div className="vertical medium-horizontal grid-block">
             <div className="medium-4 grid-block description-title">
               <div className="grid-content">

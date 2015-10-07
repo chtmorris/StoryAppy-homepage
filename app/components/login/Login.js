@@ -9,7 +9,7 @@ class Login extends React.Component{
     return(
       <div className="login-section">
         <Element name="login-section">
-        <div className="align-center vertical grid-block login-full-height">
+        <div className="align-center vertical grid-block login-full-height shadow">
           <div className="login-text-block">
             <div className="grid-block align-center">
               <h2 className="login-title"> Login </h2>

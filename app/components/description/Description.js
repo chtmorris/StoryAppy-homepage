@@ -11,12 +11,16 @@ class Description extends React.Component{
     return(
       <div>
         <Parallax bgImage="img/parallaxOne.png" strength={200}></Parallax>
-        <DescriptionOverview />
-        <CustomizationOverview />
+        <div className="shadow">
+          <DescriptionOverview />
+          <CustomizationOverview />
+        </div>
         <Parallax bgImage="img/parallaxTwo.png" strength={300}></Parallax>
+        <div className="shadow">
         <Students />
         <Teachers />
         <Parents />
+        </div>
         <Parallax bgImage="img/parallaxThree.png" strength={300}></Parallax>
       </div>
     )
