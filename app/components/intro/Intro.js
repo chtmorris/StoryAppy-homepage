@@ -13,7 +13,8 @@ class Intro extends React.Component{
           <div className="grid-container white-box">
             <div className="vertical medium-horizontal grid-block">
               <div className="grid-block">
-                <p className="get-email-text"> StoryAppy is looking for schools to join a pilot program.  If you’re interested or if you would like to receive news about StoryAppy, please sign up. </p>
+                <p className="get-email-text">
+                  If you’re interested in a free trial of StoryAppy, please sign up here. </p>
               </div>
               <div className="grid-block align-center">
                 <form>
