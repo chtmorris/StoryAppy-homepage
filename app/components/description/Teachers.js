@@ -12,17 +12,18 @@ class Teachers extends React.Component{
         </div>
         <div className="grid-container">
           <div className="vertical medium-horizontal grid-block">
-            <div className="medium-8 grid-block description-title">
-              <div className="vertical grid-content">
-                <p className="description-text-block">
-                  Instead of waiting for a teacher to grade an assignment,
-                  students are able to get immediate feedback on their work.
-                </p>
-              </div>
-            </div>
-            <div className="medium-4 grid-block description-title">
+            <div className="medium-4 medium-order-2 grid-block description-title">
               <div className="grid-content">
                 <div className="graph"></div>
+              </div>
+            </div>
+            <div className="medium-8 medium-order-1 grid-block description-title">
+              <div className="align-center vertical grid-block">
+                <p className="description-text-block">
+                  We keep track of all student data and present this data graphically to you the teacher.
+                  Using our analytics tools, you can easily assess student progress and generate
+                  literacy reports for each student.
+                </p>
               </div>
             </div>
           </div>

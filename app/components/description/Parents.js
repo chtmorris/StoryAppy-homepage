@@ -17,9 +17,11 @@ class Parents extends React.Component{
               </div>
             </div>
             <div className="medium-8 grid-block description-title">
-              <div className="vertical grid-content">
+              <div className="align-center vertical grid-block">
                 <p className="description-text-block">
-                  Print the stories into beautiful books that parents and students can keep forever.
+                  StoryAppy helps writers produce incredible stories together.
+                  We offer the ability to print these stories into beautiful books
+                  that parents and students can keep forever.
                 </p>
               </div>
             </div>

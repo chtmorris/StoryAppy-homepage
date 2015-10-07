@@ -3,7 +3,7 @@ import React from 'react';
 class Students extends React.Component{
   render(){
     return(
-      <div>
+      <div className="description-block">
         <div className="vertical grid-block description-title">
           <div className="grid-container">
             <h2> Editing tools for self learning & faster improvement</h2>
@@ -17,10 +17,12 @@ class Students extends React.Component{
               </div>
             </div>
             <div className="medium-8 grid-block description-title">
-              <div className="vertical grid-content">
+              <div className="align-center vertical grid-block">
                 <p className="description-text-block">
                   Instead of waiting for a teacher to grade an assignment,
-                  students are able to get immediate feedback on their work.
+                  students are able to receive immediate feedback on their work.
+                  This feedback ranges from spelling and grammar corrections,
+                  to advice on the use of literary devices.
                 </p>
               </div>
             </div>

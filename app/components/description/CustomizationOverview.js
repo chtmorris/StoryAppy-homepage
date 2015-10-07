@@ -17,7 +17,7 @@ class CustomizationOverview extends React.Component{
               </div>
             </div>
             <div className="medium-8 grid-block description-title">
-              <div className="vertical grid-content">
+              <div className="align-center vertical grid-block">
                 <p className="description-text-block">
                   We make it possible for teachers to pick different modes of collaboration
                   so that students won’t get bored with the same assignments and will
