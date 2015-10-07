@@ -10,18 +10,18 @@ class Description extends React.Component{
   render(){
     return(
       <div>
-        <Parallax bgImage="img/parallaxOne.png" strength={200}></Parallax>
+        <Parallax bgImage="img/parallaxOne.png" strength={180}></Parallax>
         <div className="shadow">
           <DescriptionOverview />
           <CustomizationOverview />
         </div>
-        <Parallax bgImage="img/parallaxTwo.png" strength={300}></Parallax>
+        <Parallax bgImage="img/parallaxTwo.png" strength={180}></Parallax>
         <div className="shadow">
         <Students />
         <Teachers />
         <Parents />
         </div>
-        <Parallax bgImage="img/parallaxThree.png" strength={300}></Parallax>
+        <Parallax bgImage="img/parallaxThree.png" strength={180}></Parallax>
       </div>
     )
   }
