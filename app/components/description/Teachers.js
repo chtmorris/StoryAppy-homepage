@@ -1,5 +1,4 @@
 import React from 'react';
-import Analytics from './Analytics'
 
 class Teachers extends React.Component{
   render(){
