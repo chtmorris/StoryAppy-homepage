@@ -28,10 +28,11 @@ p, h1, h2, h3, input, text {
   left: 0;
   right: 0;
   z-index: 1000;
-  background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.17));
+  background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0));
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   border-bottom: none;
+  text-shadow:#000 0px 1px 3px;
 }
 
 .nav-links {
@@ -81,84 +82,28 @@ p, h1, h2, h3, input, text {
   z-index: 2;
 }
 
-.intro-title {
-  max-width: 700px;
-  margin: auto;
-}
-
 .intro-content h1 {
   font-weight: 700;
   text-shadow: 0px 5px 1px rgba(0, 0, 0, 0.5);
   color: white !important;
 }
 
-@media screen and (min-height:400px) {
-  .intro-content {
-    padding-top: 100px;
-  }
-}
-
-@media screen and (min-height:500px) {
-  .intro-content {
-    padding-top: 200px;
-  }
-}
-
-@media screen and (min-height:600px) {
-  .intro-content {
-    padding-top: 300px;
-  }
-}
-
-@media screen and (min-height:700px) {
-  .intro-content {
-    padding-top: 400px;
-  }
-}
-
-@media screen and (min-height:800px) {
-  .intro-content {
-    padding-top: 500px;
-  }
-}
-
-@media screen and (min-height:900px) {
-  .intro-content {
-    padding-top: 600px;
-  }
-}
-
-@media screen and (min-height:1000px) {
-  .intro-content {
-    padding-top: 700px;
-  }
+.intro-title {
+  max-width: 700px;
+  margin: auto;
 }
 
 @media screen and (max-width:650px) {
-  .intro-content {
-    padding-top: 200px;
-  }
   .get-email-text{
     margin-bottom: 0;
   }
+
   .submit-email{
     width: 140px;
   }
 
   input.e-mail {
     width: 140px;
-  }
-}
-
-@media screen and (max-width:450px) {
-  .intro-content {
-    padding-top: 130px;
-  }
-}
-
-@media screen and (max-width:350px) {
-  .intro-content {
-    padding-top: 10px;
   }
 }
 
@@ -195,9 +140,9 @@ input.e-mail {
 }
 
 /*----- DESCRIPTION -----*/
-.first-description-block {
+.description-block {
   text-align: center;
-  padding: 0 5px;
+  padding: 40px 5px 0 5px;
 }
 
 .description-title {
@@ -254,7 +199,6 @@ input.e-mail {
 }
 
 .example-text-img{
-  /*height: 100%;*/
   width: 80%;
   object-fit: contain;
   display: block;
@@ -271,11 +215,15 @@ svg {
 }
 
 .description-text-block{
-  margin: 50px 0 0 0;
+  padding: 0 10px;
   max-width: 500px;
-  font-size: 18px;
+  font-size: 20px;
   color: grey;
   font-weight: bold;
+}
+
+.intimidating-text{
+  margin-top: 50px;
 }
 
 /*----- PARALLAX -----*/
@@ -293,6 +241,7 @@ svg {
 /*----- LOGIN -----*/
 .login-section{
   background-position: center;
+  height:100vh;
   width: 100%;
   background-image: url('/img/books.jpg');
   -webkit-background-size: cover;
@@ -301,9 +250,13 @@ svg {
   -o-background-size: cover;
 }
 
+.login-full-height {
+  height: 100vh;
+}
+
 .login-text-block {
   z-index: 100;
-  padding: 50px 0;
+  padding: 100px 0;
 }
 
 .login-title{
@@ -349,8 +302,20 @@ form input:focus {
   background: #47345B;
 }
 
+.login-overlay {
+  position: absolute;
+  bottom: 0;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.0));
+  z-index: 0;
+}
+
+
 /*----- FOOTER -----*/
 .footer {
+  position: absolute;
+  bottom: 0;
   margin: 0 0 0 20px;
   z-index: 200;
 }

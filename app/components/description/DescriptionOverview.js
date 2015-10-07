@@ -3,7 +3,7 @@ import React from 'react';
 class DescriptionOverview extends React.Component{
   render(){
     return(
-      <div className="first-description-block">
+      <div className="description-block">
         <div className="vertical grid-block description-title">
           <div className="grid-container">
             <h2> Increase engagement through collaborative writing between...</h2>
@@ -45,7 +45,7 @@ class DescriptionOverview extends React.Component{
         </div>
         <div className="vertical grid-block">
           <div className="vertical grid-container">
-            <p className="description-text-block">
+            <p className="description-text-block intimidating-text">
                Writing can be intimidating for people of all ages.
                By allowing students to write together, StoryAppy makes writing collaborative, fun and engaging.
                Imagine your students writing with pen pals from all over the world!
