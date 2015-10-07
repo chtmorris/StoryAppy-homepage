@@ -227,7 +227,7 @@ svg {
 }
 
 .shadow{
-  box-shadow: 0px 10px 10px black, 0px -10px 10px black;
+  box-shadow: 0px 0px 100px black, 0px -0px 100px black;
 }
 
 /*----- PARALLAX -----*/
