@@ -121,6 +121,8 @@ p, h1, h2, h3, input, text {
 }
 
 .get-email-text{
+  color: white;
+  text-align: center;
   padding: 15px 15px 0 15px;
   font-weight: 400;
   font-size: 18px;
@@ -267,6 +269,8 @@ svg {
 
 .login-title{
   color: white;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 form {

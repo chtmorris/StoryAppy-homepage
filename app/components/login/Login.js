@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from '../footer/Footer';
 import Scroll from 'react-scroll';
+import Signup from '../signUpBox/Signup';
 
 var Element = Scroll.Element;
 
@@ -12,14 +13,10 @@ class Login extends React.Component{
         <div className="align-center vertical grid-block login-full-height shadow">
           <div className="login-text-block">
             <div className="grid-block align-center">
-              <h2 className="login-title"> Login </h2>
+              <h2 className="login-title"> And its name was... </h2>
             </div>
             <div className="grid-block align-center">
-          		<form className="login-form">
-          			<input type="text" placeholder="Username" className="username"/>
-          			<input type="password" placeholder="Password" />
-          			<a className="expand button" href="#">Login</a>
-          		</form>
+              <Signup />
             </div>
           </div>
           <Footer />
