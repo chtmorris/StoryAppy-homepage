@@ -2,7 +2,7 @@
 .DS_Store
 
 # Config Secrets
-config/secrets.js
+app/config/secrets.js
 
 # Logs
 logs
