@@ -1,0 +1,10 @@
+{
+  "applications": {
+    "StoryAppySignUps": {
+      "applicationId": "S8oBhr9je1iMa9V11me0giBuuytSVRKklm2giR0C"
+    },
+    "_default": {
+      "link": "StoryAppySignUps"
+    }
+  }
+}
