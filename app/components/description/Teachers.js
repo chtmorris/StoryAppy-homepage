@@ -6,7 +6,7 @@ class Teachers extends React.Component{
       <div>
         <div className="vertical grid-block description-title">
           <div className="grid-container">
-            <h2> Keep track of student progress through custom analytics</h2>
+            <h2> ... teachers loved the analytics</h2>
           </div>
         </div>
         <div className="grid-container">

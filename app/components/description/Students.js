@@ -6,7 +6,7 @@ class Students extends React.Component{
       <div className="description-block">
         <div className="vertical grid-block description-title">
           <div className="grid-container">
-            <h2> Editing tools for self learning & faster improvement</h2>
+            <h2> ... students enjoyed the instant feedback</h2>
           </div>
         </div>
         <div className="grid-container">

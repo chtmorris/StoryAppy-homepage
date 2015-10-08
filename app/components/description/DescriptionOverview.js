@@ -6,7 +6,7 @@ class DescriptionOverview extends React.Component{
       <div className="description-block">
         <div className="vertical grid-block description-title">
           <div className="grid-container">
-            <h2> Increase engagement through collaborative writing between...</h2>
+            <h2> ... it allowed students to write collaboratively with each other</h2>
           </div>
         </div>
         <div className="grid-container">

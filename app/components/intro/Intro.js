@@ -47,7 +47,7 @@ class Intro extends React.Component{
         <div className="vertical grid-block">
           <div className="grid-content">
             <p className="get-email-text">
-              Thanks for getting in touch. We will get back to you asap. 
+              Thanks for getting in touch. We will get back to you asap.
             </p>
           </div>
         </div>
@@ -58,14 +58,17 @@ class Intro extends React.Component{
         <div className="intro-content">
           <div className="grid-block intro-title">
             <div className="grid-content">
-              <h1> A writing tool for the classroom to nurture our young writers</h1>
+              <h1> Once upon a time, there was a magical story writing app...
+              </h1>
             </div>
           </div>
           <div className="grid-container white-box">
             <div className="vertical medium-horizontal grid-block">
               <div className="grid-block">
                 <p className="get-email-text">
-                  If you’re interested in a free trial of StoryAppy, please sign up here. </p>
+                  StoryAppy is writing tool for the classroom.
+                  Sign up for a free trial
+                  </p>
               </div>
               <div className="grid-block align-center">
                 {form}

@@ -6,7 +6,7 @@ class CustomizationOverview extends React.Component{
       <div>
         <div className="vertical grid-block description-title">
           <div className="grid-container">
-            <h2> Lots of ways to customise writing assignments</h2>
+            <h2> ... teachers loved how easy it was to customise</h2>
           </div>
         </div>
         <div className="grid-container extra-padding-bottom">
