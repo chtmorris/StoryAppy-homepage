@@ -12,7 +12,9 @@ class Signup extends React.Component{
   constructor(props){
     super(props);
     this.state = {
-      emailSent: false
+      emailSent: false,
+      message: this.props.message,
+      style: this.props.style
     }
     this.handleClick = this.handleClick.bind(this);
   }
@@ -53,14 +55,16 @@ class Signup extends React.Component{
         </div>
       );
     }
+    let message = this.state.message || 'StoryAppy is a writing tool for the classroom. Sign up for a free trial';
+    let style = this.state.style || 'get-email-text';
+
     return(
       <div className="grid-container white-box">
         <div className="vertical medium-horizontal grid-block">
           <div className="grid-block">
-            <p className="get-email-text">
-              StoryAppy is writing tool for the classroom.
-              Sign up for a free trial
-              </p>
+            <p className={style}>
+              {message}
+            </p>
           </div>
           <div className="grid-block align-center">
             {form}

@@ -13,10 +13,10 @@ class Login extends React.Component{
         <div className="align-center vertical grid-block login-full-height shadow">
           <div className="login-text-block">
             <div className="grid-block align-center">
-              <h2 className="login-title"> And its name was... </h2>
+              <h2 className="login-title"> And its name... </h2>
             </div>
             <div className="grid-block align-center">
-              <Signup />
+              <Signup message="Sign up to find out!" style="get-email-text-2"/>
             </div>
           </div>
           <Footer />

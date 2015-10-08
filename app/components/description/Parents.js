@@ -6,7 +6,7 @@ class Parents extends React.Component{
       <div>
         <div className="vertical grid-block description-title">
           <div className="grid-container">
-            <h2> ... and parents were blow away by the beautiful works of their offspring </h2>
+            <h2> ... and parents were blown away by the beautiful works of their offspring </h2>
           </div>
         </div>
         <div className="grid-container extra-padding-bottom">

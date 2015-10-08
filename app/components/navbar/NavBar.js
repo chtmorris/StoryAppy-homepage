@@ -18,7 +18,7 @@ class NavBar extends React.Component{
           <div className="medium-1 grid-block nav-links">
             <span className="right login-button">
               <Link to="login-section" spy={true} smooth={true} duration={2000}>
-                Sign in
+                Sign up
               </Link>
             </span>
           </div>
