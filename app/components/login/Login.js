@@ -16,7 +16,7 @@ class Login extends React.Component{
               <h1 className="login-title"> And they lived happily ever after. <br/> The End </h1>
             </div>
             <div className="grid-block align-center">
-              <Signup message="Sign up to find out!" style="get-email-text-2"/>
+              <Signup message="Sign up for a free trial!" style="get-email-text-2"/>
             </div>
           </div>
           <Footer />
