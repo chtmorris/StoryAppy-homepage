@@ -19,7 +19,7 @@ class Teachers extends React.Component{
             <div className="medium-8 medium-order-1 grid-block description-title">
               <div className="align-center vertical grid-block">
                 <p className="description-text-block">
-                  We keep track of all student data and present this data graphically to you the teacher.
+                  We keep track of all student data and present this data graphically to you, the teacher.
                   Using our analytics tools, you can easily assess student progress and generate
                   literacy reports for each student.
                 </p>
