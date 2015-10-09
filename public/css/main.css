@@ -22,6 +22,10 @@ p, h1, h2, h3, input, text {
   padding-bottom: 100px;
 }
 
+.initial-positioning{
+  position: initial;
+}
+
 /*----- NAV BAR -----*/
 .primary.title-bar {
   position: fixed;
