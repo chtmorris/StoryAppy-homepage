@@ -1,5 +1,5 @@
 import React from 'react';
-import Scroll from 'react-scroll';
+import Scroll from 'react-scroll-no-reactdom-dependency';
 
 var Link = Scroll.Link;
 

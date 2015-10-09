@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from '../footer/Footer';
-import Scroll from 'react-scroll';
+import Scroll from 'react-scroll-no-reactdom-dependency';
 import Signup from '../signUpBox/Signup';
 
 var Element = Scroll.Element;
