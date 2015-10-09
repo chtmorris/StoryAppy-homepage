@@ -1,5 +1,8 @@
 import React from 'react';
 import Parse from 'parse';
+import ga from 'react-google-analytics';
+
+
 
 let contact = new Parse.Object('Contact');
 
@@ -18,7 +21,12 @@ class Signup extends React.Component{
     }
     this.handleClick = this.handleClick.bind(this);
   }
+  
   handleClick(event) {
+    
+    ga('create','UA-68630239-1', 'auto')
+    ga('send','event','AppStore','download','Landing Page')
+
     event.preventDefault();
     var emailAddress = React.findDOMNode(this.refs.emailInput).value
     if ((emailAddress != "") && validateEmail(emailAddress)) {
@@ -29,6 +37,7 @@ class Signup extends React.Component{
       console.log("empty email field");
     }
   }
+  
   render(){
     let form;
     if (!this.state.emailSent) {
