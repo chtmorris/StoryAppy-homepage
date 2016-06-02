@@ -9,10 +9,12 @@ class NavBar extends React.Component{
 
       <div className="primary title-bar">
         <div className="grid-block">
-          <div className="medium-11 grid-block initial-positioning">
+          <div className="medium-10 grid-block initial-positioning">
           <span className="left">
-            <img src="img/StoryAppyLogoSmall.png" className="logo" />
-            <span className="logo-text">StoryAppy</span>
+            <a href="/">
+              <img src="img/StoryAppyLogoSmall.png" className="logo" />
+              <span className="logo-text">StoryAppy</span>
+            </a>
           </span>
           </div>
           <div className="medium-1 grid-block nav-links initial-positioning">
@@ -20,6 +22,13 @@ class NavBar extends React.Component{
               <Link to="login-section" spy={true} smooth={true} duration={2000}>
                 Sign up
               </Link>
+            </span>
+          </div>
+          <div className="medium-1 grid-block nav-links initial-positioning">
+            <span className="right login-button">
+              <a href="/#/SchoolLogin">
+                Login
+              </a>
             </span>
           </div>
         </div>
